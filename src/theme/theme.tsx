@@ -10,7 +10,7 @@ import text from "./components/text";
 import { menuTheme } from "./components/menu";
 import { inputTheme } from "./components/input";
 
-const theme = extendTheme({
+export const theme = extendTheme({
     components: {
         Button: button,
         Avatar: avatarTheme,
@@ -23,5 +23,3 @@ const theme = extendTheme({
         Input: inputTheme
     },
 });
-
-export default theme;
