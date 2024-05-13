@@ -1,6 +1,6 @@
+import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
 import StepList from "../components/StepList";
-import { Step } from "../components/StepList/Step";
 
 export default {
   title: "Design System/StepList",
