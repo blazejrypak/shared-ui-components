@@ -1,2 +1,2 @@
-declare const theme: Record<string, any>;
-export default theme;
+import { ThemeOverride } from "@chakra-ui/react";
+export declare const theme: ThemeOverride;

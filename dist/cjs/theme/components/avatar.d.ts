@@ -15,12 +15,12 @@ export declare const avatarTheme: {
     } | undefined;
     sizes?: {
         [key: string]: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-            keys: ("label" | "group" | "container" | "badge" | "excessLabel")[];
+            keys: ("container" | "label" | "badge" | "excessLabel" | "group")[];
         }>;
     } | undefined;
     variants?: {
         [key: string]: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-            keys: ("label" | "group" | "container" | "badge" | "excessLabel")[];
+            keys: ("container" | "label" | "badge" | "excessLabel" | "group")[];
         }>;
     } | undefined;
     defaultProps?: {
@@ -28,5 +28,5 @@ export declare const avatarTheme: {
         variant?: string | number | undefined;
         colorScheme?: string | undefined;
     } | undefined;
-    parts: ("label" | "group" | "container" | "badge" | "excessLabel")[];
+    parts: ("container" | "label" | "badge" | "excessLabel" | "group")[];
 };

@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { ThemeOverride } from '@chakra-ui/react';
 
 type StepListProps = {
     children: React.ReactNode;
@@ -19,4 +20,6 @@ declare const StepList: FC<StepListProps> & {
     Step: FC<StepProps>;
 };
 
-export { StepList as default };
+declare const theme: ThemeOverride;
+
+export { StepList as default, theme };

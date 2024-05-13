@@ -1,10 +1,10 @@
 export declare const cardTheme: {
     baseStyle?: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-        keys: ("body" | "footer" | "header" | "container")[];
+        keys: ("container" | "header" | "body" | "footer")[];
     }> | undefined;
     sizes?: {
         [key: string]: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-            keys: ("body" | "footer" | "header" | "container")[];
+            keys: ("container" | "header" | "body" | "footer")[];
         }>;
     } | undefined;
     variants?: {
@@ -66,5 +66,5 @@ export declare const cardTheme: {
         variant?: "client" | "campaign" | undefined;
         colorScheme?: string | undefined;
     } | undefined;
-    parts: ("body" | "footer" | "header" | "container")[];
+    parts: ("container" | "header" | "body" | "footer")[];
 };

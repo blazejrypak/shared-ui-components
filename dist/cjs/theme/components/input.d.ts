@@ -12,12 +12,12 @@ export declare const inputTheme: {
     } | undefined;
     sizes?: {
         [key: string]: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-            keys: ("group" | "element" | "addon" | "field")[];
+            keys: ("group" | "addon" | "field" | "element")[];
         }>;
     } | undefined;
     variants?: {
         [key: string]: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-            keys: ("group" | "element" | "addon" | "field")[];
+            keys: ("group" | "addon" | "field" | "element")[];
         }>;
     } | undefined;
     defaultProps?: {
@@ -25,5 +25,5 @@ export declare const inputTheme: {
         variant?: string | number | undefined;
         colorScheme?: string | undefined;
     } | undefined;
-    parts: ("group" | "element" | "addon" | "field")[];
+    parts: ("group" | "addon" | "field" | "element")[];
 };

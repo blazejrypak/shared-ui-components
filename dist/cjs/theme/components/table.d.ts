@@ -1,10 +1,10 @@
 export declare const tableTheme: {
     baseStyle?: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-        keys: ("caption" | "table" | "tbody" | "td" | "tfoot" | "th" | "thead" | "tr")[];
+        keys: ("table" | "thead" | "tbody" | "tr" | "th" | "td" | "tfoot" | "caption")[];
     }> | undefined;
     sizes?: {
         [key: string]: import("@chakra-ui/styled-system").PartsStyleInterpolation<{
-            keys: ("caption" | "table" | "tbody" | "td" | "tfoot" | "th" | "thead" | "tr")[];
+            keys: ("table" | "thead" | "tbody" | "tr" | "th" | "td" | "tfoot" | "caption")[];
         }>;
     } | undefined;
     variants?: {
@@ -68,5 +68,5 @@ export declare const tableTheme: {
         variant?: "campaign" | "reports" | "withoutBcg" | undefined;
         colorScheme?: string | undefined;
     } | undefined;
-    parts: ("caption" | "table" | "tbody" | "td" | "tfoot" | "th" | "thead" | "tr")[];
+    parts: ("table" | "thead" | "tbody" | "tr" | "th" | "td" | "tfoot" | "caption")[];
 };
