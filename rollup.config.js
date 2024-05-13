@@ -11,16 +11,19 @@ const packageJson = require("./package.json");
 export default [
     {
       input: "src/index.ts",
+      preserveModules: true,
       output: [
         {
           file: packageJson.main,
           format: "cjs",
           sourcemap: true,
+          exports: "auto",
         },
         {
           file: packageJson.module,
           format: "esm",
           sourcemap: true,
+          exports: "auto",
         },
       ],
       plugins: [
@@ -31,7 +34,6 @@ export default [
           rollupCommonJSResolveHack: false,
           clean: true,
         }),
-        // typescript({ tsconfig: "./tsconfig.json" }),
         terser(),
       ],
       external: ["react", "react-dom"],
